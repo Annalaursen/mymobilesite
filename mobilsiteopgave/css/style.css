@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(244, 200, 200);
+}
+@font-face {
+  font-family: cherry;
+  src: url(../fonts/CherryCreamSoda-Regular.ttf);
+}
+
+p,
+li {
+  font-family: Haettenschweiler, sans-serif;
+  color: rgb(95, 87, 90);
+  font-size: 18px;
+}
+h1,
+h2,
+h3 {
+  font-family: cherry;
+  color: rgb(146, 62, 90);
+}
+body nav {
+  background-color: rgb(255, 255, 255);
+  padding: 0.2em;
+  margin: 1rem 1rem 1.5rem 1rem;
+}
+p,
+h1,
+h2,
+h3,
+img {
+  margin: 1rem 1rem 1.5rem 1rem;
+  padding: 0.2em;
+}
+.cta-btn {
+  background-color: rgb(146, 50, 154);
+  color: rgb(255, 255, 255);
+  font-family: cherry;
+  padding: 10px 16px;
+  border-radius: 20px;
+}
